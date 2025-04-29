@@ -8,6 +8,81 @@ transition: slide-left
 De evolutie van AI van theoretisch concept naar praktische toepassingen
 
 ---
+layout: image-left
+image: https://images.unsplash.com/photo-1569360531163-a61fa3da86ee
+transition: slide-left
+hideInToc: true
+---
+
+# Just Ask & Document Processing
+
+## Natuurlijke Taal Verwerking
+- Documenten begrijpen en interpreteren
+- Automatische extractie van informatie
+- Intelligente classificatie en verwerking
+
+## Voordelen
+- Tijdsbesparing
+- Nauwkeurigheid
+- Schaalbaarheid
+- Inzicht
+
+<!--
+## Voordelen
+- **Tijdsbesparing**: automatisering van handmatige processen
+- **Nauwkeurigheid**: vermindering van verwerkingsfouten
+- **Schaalbaarheid**: verwerking van grote documentvolumes
+- **Inzicht**: betere data-extractie voor besluitvorming
+
+## Use Cases
+- Factuurverwerking
+- Contractanalyse
+- Compliance-documentatie
+- Klantcorrespondentie
+-->
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1485827404703-89b55fcc595e
+transition: slide-left
+---
+
+# Ethische Aspecten
+
+## Kernuitdagingen
+- **Bias & Fairness**: tegengaan vooroordelen
+- **Transparantie**: begrijpelijke besluitvorming
+- **Privacy**: bescherming persoonsgegevens
+- **Verantwoordelijkheid**: wie is aansprakelijk?
+
+## SAP's Aanpak
+- **Ethische richtlijnen** voor ontwikkeling
+- **Diverse datasets** tegen bias
+- **Explainable AI** voor transparantie
+- **Data governance** voor privacy
+
+---
+layout: image-left
+image: https://images.unsplash.com/photo-1474631245212-32dc3c8310c6
+transition: slide-left
+---
+
+# Toekomstperspectief
+
+## Belangrijkste trends
+- Balans innovatie en ethiek
+- Mensgerichte ontwikkeling
+- Stakeholder-samenwerking
+- Adaptieve normering
+
+## Concrete stappen
+- **Ethische audits** van systemen
+- **Inclusief design** proces
+- **Ontwikkelaar-training**
+- **Transparante communicatie**
+
+
+---
 layout: section
 transition: slide-left
 hideInToc: true

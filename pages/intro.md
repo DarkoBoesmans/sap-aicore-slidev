@@ -142,7 +142,7 @@ hideInToc: true
 ---
 layout: center
 class: text-center
-transition: slide-up
+transition: slide-left
 hideInToc: true
 ---
 
@@ -188,65 +188,3 @@ flowchart TD
 
   - Deze modellen hebben revolutionaire mogelijkheden maar ook nieuwe uitdagingen De evolutie van AI toont een steeds toenemende complexiteit en capaciteit, waarbij elke nieuwe laag voortbouwt op de voorgaande en nieuwe mogelijkheden introduceert.
 -->
-
----
-layout: image-left
-image: https://images.unsplash.com/photo-1569360531163-a61fa3da86ee
-transition: slide-left
-hideInToc: true
----
-
-# Just Ask & Document Processing
-
-## Natuurlijke Taal Verwerking
-- Documenten begrijpen en interpreteren
-- Automatische extractie van informatie
-- Intelligente classificatie en verwerking
-
-## Voordelen
-- Tijdsbesparing
-- Nauwkeurigheid
-- Schaalbaarheid
-- Inzicht
-
-<!--
-## Voordelen
-- **Tijdsbesparing**: automatisering van handmatige processen
-- **Nauwkeurigheid**: vermindering van verwerkingsfouten
-- **Schaalbaarheid**: verwerking van grote documentvolumes
-- **Inzicht**: betere data-extractie voor besluitvorming
-
-## Use Cases
-- Factuurverwerking
-- Contractanalyse
-- Compliance-documentatie
-- Klantcorrespondentie
--->
-
----
-layout: image-right
-image: https://images.unsplash.com/photo-1485827404703-89b55fcc595e
-transition: slide-left
----
-
-<!-- TODO: Info verdelen want het is te veel op een slide -->
-
-# Ethische & Sociale Aspecten van AI
-
-## Kernuitdagingen
-- **Bias & Fairness**: oneerlijke vooroordelen tegengaan
-- **Transparantie**: begrijpelijke AI-besluitvorming
-- **Privacy**: bescherming van persoonlijke gegevens
-- **Verantwoordelijkheid**: wie is aansprakelijk?
-
-## SAP's Aanpak
-- **Ethische richtlijnen** voor AI-ontwikkeling
-- **Diverse trainingsdatasets** om bias te verminderen
-- **Explainable AI** voor transparantie
-- **Data governance** en privacybescherming
-
-## Toekomstperspectief
-- Balans tussen innovatie en ethische overwegingen
-- Mensgerichte AI-ontwikkeling
-- Samenwerking met stakeholders
-- Aanpassingsvermogen aan evoluerende normen
