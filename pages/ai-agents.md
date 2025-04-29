@@ -1,37 +1,45 @@
 ---
 layout: default
 transition: slide-left
+hideInToc: true
 ---
 
-# AI Agents: Orchestration Tools
+<!-- TODO: Info verdelen want het is te veel op een slide -->
 
-<div class="grid grid-cols-1 gap-4">
-  <p>AI Agents zijn autonome systemen die complexe taken kunnen uitvoeren door meerdere AI-modellen en tools te coördineren.</p>
-</div>
+# Orchestration Tools: "Agents"
 
-<div class="grid grid-cols-2 gap-6 mt-4">
+Autonome AI-systemen die taken uitvoeren door beslissingen te nemen en acties te ondernemen op basis van contextuele informatie.
+<div class="grid grid-cols-2 gap-6">
 <div>
 
-## Kerncomponenten
-
-- **Observation**: Waarnemen van omgeving
-- **Planning**: Stappen bepalen voor doelbereiking
-- **Reasoning**: Logische analyse en afwegingen
-- **Action**: Uitvoeren van taken of commando's
-- **Memory**: Opslag van context en historie
-- **Tools**: Integratie met externe systemen
+1. **Aaneenschakeling van verschillende AI-modellen**
+   - Koppelt verschillende modellen als "specialisten"
+   - Orkestreert datastromen tussen modellen
+   - Schakelt automatisch tussen modellen
 
 </div>
 <div>
 
-## Frameworks
+2. **Interactie met externe systemen en APIs**
+   - Verbindt met bedrijfssystemen
+   - Haalt gegevens op en schrijft resultaten terug
+   - Authenticatie en toegangsbeheer
 
-- **LangChain**: Open-source framework voor LLM apps
-- **AutoGPT**: Autonome GPT-4 agent
-- **BabyAGI**: Eenvoudige taakmanagement agent
-- **Autonomous Agents**: Microsoft's enterprise agents
-- **Microsoft Copilot Studio**: No-code agent builder
-- **SAP AI Agent Framework**: Bedrijfsgerichte agents
+</div>
+<div>
+
+3. **Doelgerichte uitvoering van complexe taken**
+   - Plant en volgt multi-stap workflows autonoom
+   - Splitst complexe doelen op in haalbare subtaken
+   - Leert en verbetert strategieën door eerdere uitvoeringen
+
+</div>
+<div>
+
+4. **Zelfstandig nemen van beslissingen binnen kaders**
+   - Vooraf gedefinieerde beleidsrichtlijnen
+   - Escalateert naar mensen bij twijfel
+   - Gebruikt zakelijke regels
 
 </div>
 </div>
@@ -42,31 +50,44 @@ transition: slide-left
 hideInToc: true
 ---
 
-# AI Agent Architectuur
+<!-- TODO: Info verdelen want het is te veel op een slide -->
 
-<div class="grid grid-cols-2 gap-6">
+# AI Agents in SAP: Toepassingen
+
+<div class="grid grid-cols-2 gap-4">
 <div>
 
-## Architectuurlagen
+  ## Procesautomatisering
+  Automatiseren van complexe workflows zoals inkoopprocessen, goedkeuringen en reconciliatie
 
-- **Foundation Model**: Basis intelligentie (LLM)
-- **Reasoning Engine**: Logica en redenering
-- **Tool Integration**: API's en externe systemen
-- **Memory Systems**: Korte- en langetermijngeheugen
-- **Orchestration Layer**: Coördinatie van acties
-- **Interface Layer**: Interactie met gebruikers
+  - End-to-end automatisering van inkoop
+  - Intelligente goedkeuringsrouting
+  - Autonome reconciliatie van facturen
+  
+  ## Beslissingsondersteuning
+  Analyseren van data en formuleren van aanbevelingen voor bedrijfsbeslissingen
+
+  - Voorspellende inzichten voor verkoop
+  - Simulatie van bedrijfsscenario's
+  - Aanbevelingen voor productportfolio
 
 </div>
+  
 <div>
 
-## Agent Types
+  ## Anomaliedetectie
+  Proactieve controle en melding van afwijkingen in transacties en systemen
 
-- **Single-agent**: Één agent voor specifieke taak
-- **Multi-agent**: Meerdere gespecialiseerde agents
-- **Hierarchical**: Manager-agent stuurt sub-agents aan
-- **Collaborative**: Agents werken samen aan complexe taken
-- **Adaptive**: Lerende agents die verbeteren over tijd
-- **Autonomous**: Minimale menselijke tussenkomst
+  - Fraudedetectie in financiële transacties
+  - Identificatie van systeemafwijkingen
+  - Monitoring van datapatronen in real-time
+  
+  ## Klantenservice
+  Geautomatiseerde probleemoplossing en opvolging van klantvragen
+
+  - Intelligente routing van ondersteuningsvragen
+  - Automatische resolutie van problemen
+  - Proactieve follow-up en case management
 
 </div>
 </div>
@@ -77,31 +98,74 @@ transition: slide-left
 hideInToc: true
 ---
 
-# AI Agents in SAP
+<!-- TODO: Info verdelen want het is te veel op een slide -->
 
-<div class="grid grid-cols-2 gap-6">
+# AI Agents in SAP: Uitdagingen
+
+<div class="grid grid-cols-2 gap-4">
 <div>
 
-## Toepassingsgebieden
+  ## Betrouwbaarheid en consistentie
+  Garanderen van consistente resultaten over verschillende bedrijfsprocessen
 
-- **Business process automation**
-- **Advanced analytics en rapportage**
-- **Supply chain optimalisatie**
-- **Klantservice en ondersteuning**
-- **Finance en risk management**
-- **Human resources en talent management**
+  - Gestandaardiseerde kwaliteitscontroles
+  - Duidelijke prestatie-indicatoren
+  - Regelmatige model-evaluatie en -kalibratie
+  
+  ## Security en toegangscontrole
+  Waarborgen van veilige toegang tot gevoelige bedrijfsgegevens
+
+  - Granulaire toegangsrechten voor agents
+  - Versleuteling van gevoelige data in transit
+  - Monitoring en logging van systeeminteracties
 
 </div>
+
 <div>
 
-## SAP-specifieke Integraties
+  ## Menselijke supervisie
+  Balanceren van autonomie met noodzakelijke menselijke controle
 
-- **S/4HANA APIs**: Directe interactie met core
-- **BTP services**: AI Core en AI Launchpad
-- **SAP Joule**: Enterprise copilot integratie
-- **Fiori apps**: Frontend AI-ondersteuning
-- **Workflow management**: Process automation
-- **Event handling**: Respons op bedrijfsgebeurtenissen
+  - Duidelijke escalatieprocessen
+  - Human-in-the-loop workflows bij kritieke beslissingen
+  - Transparante automatiseringsgrenzen
+  
+  ## Ethische overwegingen
+  Zorgen voor verantwoord gebruik van autonome systemen in bedrijfsomgevingen
+
+  - Bias-detectie en -mitigatie
+  - Explainable AI voor kritieke processen
+  - Naleving van regelgeving en best practices
 
 </div>
 </div>
+
+---
+layout: default
+transition: slide-left
+hideInToc: true
+---
+
+<!-- TODO: Info verdelen want het is te veel op een slide -->
+<!-- TODO: Stijl aanpassen zodat het bij de rest hoort -->
+
+# Praktijkvoorbeeld: SAP Agent Orchestration
+
+## Automatisch inkoopproces met AI agents
+
+### Workflow
+1. 📝 **Aanvraag**: Detecteert inkoopbehoefte
+2. 🔍 **Analyse**: Zoekt leveranciers en prijzen
+3. 📊 **Besluit**: Stelt optimale keuze voor
+
+### Componenten
+- 🔄 **Procurement Agent**: Monitort voorraadniveaus en initieert aanvragen
+- 🔄 **Vendor Agent**: Zoekt en evalueert potentiële leveranciers
+- 🔄 **Pricing Agent**: Analyseert en vergelijkt kostenopties
+- 🔄 **Approval Agent**: Routeert goedkeuringen naar juiste personen
+
+### Voordelen
+- ⏱️ **70% tijdsbesparing** in inkoopprocessen
+- 💰 **15-20% kostenbesparing** door optimale leveranciersselectie
+- 🔄 **24/7 operatie** zonder menselijke vertraging
+- 📊 **Verbeterde audit trails** met volledige documentatie

@@ -1,37 +1,34 @@
 ---
-layout: default
+layout: section
+transition: slide-left
+hideInToc: true
+---
+
+## Prompt Engineering
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1581092160562-40aa08e78837
 transition: slide-left
 ---
 
+<div class="flex flex-col h-full justify-between">
+<div>
+
 # Prompt Engineering
 
-<div class="grid grid-cols-1 gap-4">
-  <p>De kunst van het effectief communiceren met AI-modellen om gewenste resultaten te krijgen.</p>
-</div>
-
-<div class="grid grid-cols-2 gap-6 mt-4">
-<div>
-
-## Basisprincipes
-
-- **Specificiteit**: Wees duidelijk en gedetailleerd
-- **Context**: Geef relevante achtergrondinformatie
-- **Structuur**: Organiseer informatie logisch
-- **Iteratie**: Verfijn prompts op basis van resultaten
-- **Voorbeelden**: Toon gewenste output formaat
+- De kunst van het formuleren van effectieve prompts
+- Essentiële vaardigheid voor optimaal AI-gebruik
+- Structuur, context en specificiteit zijn cruciaal
 
 </div>
-<div>
 
-## Technieken
-
-- **Few-shot learning**: Voorbeelden geven
-- **Chain-of-thought**: Stap-voor-stap redenering
-- **Role-based prompting**: Kader voor AI-respons
-- **System instructions**: Gedragsregels definiëren
-- **Temperature setting**: Creativiteit vs. nauwkeurigheid
-
+<div class="mt-4 ml-0 p-3 bg-white/10 rounded-lg">
+  <p class="text-sm italic">
+    "A prompt is not just a question, it's a conversation starter, a guide, and a constraint all at once."
+  </p>
 </div>
+
 </div>
 
 ---
@@ -40,39 +37,43 @@ transition: slide-left
 hideInToc: true
 ---
 
-# Prompt Engineering Best Practices
+# Prompt Engineering Technieken
 
 <div class="grid grid-cols-2 gap-6">
 <div>
 
-## Do's
-
-- **Wees specifiek** in je verzoeken
-- **Splits complexe taken** op in kleinere deeltaken
-- **Geef voorbeelden** van gewenste output
-- **Structureer informatie** met duidelijke secties
-- **Gebruik markers** (headers, lijsten, bullets)
-- **Geef karakterbeperkingen** indien nodig
-- **Specificeer expertise niveau** (beginner, expert)
+## Basisconcepten
+- **Chain-of-Thought**: leid het model door complexe redeneringen
+- **Few-Shot Learning**: geef voorbeelden in de prompt
+- **System Prompts**: stel de rol en gedrag van de AI in
 
 </div>
 <div>
 
-## Don'ts
-
-- **Vaag of ambigu** taalgebruik
-- **Ongerelateerde context** toevoegen
-- **Te restrictief zijn** zonder ruimte voor creativiteit
-- **Meerdere vragen** in één prompt zonder structuur
-- **Jargon** zonder uitleg
-- **Verkeerde aannames** over modelcapaciteiten
-- **Inconsistente instructies** geven
+## Geavanceerde technieken
+- **Temperature-instelling**: controle over creativiteit vs precisie
+- **Prompt Templates**: herbruikbare promptstructuren
+- **Context Window Management**: optimaal gebruik van tokenruimte
 
 </div>
 </div>
 
 ---
-layout: code
-transition: slide-left
+layout: image-right
+image: https://pbs.twimg.com/media/Gkt0bbGXIAEKh0q?format=jpg&name=large
+transition: slide-up
 hideInToc: true
 ---
+
+# The Anatomy of an o1 Prompt
+
+Claude Opus (o1) is Anthropic's geavanceerde LLM uit de Claude familie, bekend om zijn hoge kwaliteit output en sterke redeneervaardigheden.
+
+1. **Goal**
+    - Duidelijk geformuleerd doel of resultaat
+2. **Return Format**
+    - Precieze structuur voor de response
+3. **Warnings**
+    - Expliciete instructies wat te vermijden
+4. **Context Dump**
+    - Relevante achtergrondinformatie

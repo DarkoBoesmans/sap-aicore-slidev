@@ -1,103 +1,121 @@
 ---
-layout: default
+layout: section
 transition: slide-left
 ---
 
-# AI Beperkingen & Uitdagingen
+# Van Concept naar Realiteit
 
-<div class="grid grid-cols-2 gap-6">
-<div>
-
-## Technische Beperkingen
-
-- **Hallucinations**: Genereren van onjuiste informatie
-- **Black Box Probleem**: Beperkte transparantie
-- **Computationele Kosten**: Hoge hardware vereisten
-- **Data Honger**: Nood aan enorme datasets
-- **Contextbegrip**: Beperkt begrip van nuance
-- **Domain Kennis**: Generiek vs. specialistisch
-
-</div>
-<div>
-
-## Ethische Uitdagingen
-
-- **Bias & Discriminatie**: Vooroordelen in training data
-- **Privacy Concerns**: Gebruik van persoonlijke data
-- **Werkgelegenheid**: Impact op arbeidsmarkt
-- **Verantwoordelijkheid**: Wie is aansprakelijk?
-- **Regelgeving**: Evoluerend wettelijk kader (EU AI Act)
-- **Duurzaamheid**: Ecologische voetafdruk
-
-</div>
-</div>
+De evolutie van AI van theoretisch concept naar praktische toepassingen
 
 ---
-layout: default
+layout: section
 transition: slide-left
 hideInToc: true
 ---
 
-# AI Beperkingen in Zakelijke Context
+## De limitaties
+
+---
+layout: default
+transition: slide-left
+---
+
+# Limitations van Generatieve AI
 
 <div class="grid grid-cols-2 gap-6">
 <div>
 
-## Implementatie-uitdagingen
+## Hallucinations
+- AI genereert plausibele maar onjuiste informatie
+- Voorbeeld: ChatGPT maakt foutieve samenvatting van een boek
 
-- **Legacy Systemen**: Integratie met bestaande IT
-- **Skill Gap**: Gebrek aan interne AI expertise
-- **ROI Berekening**: Moeilijk te kwantificeren waarde
-- **Change Management**: Organisatorische weerstand
-- **Databeschikbaarheid**: Kwaliteit en kwantiteit
-- **Schaalbaarheid**: Van POC naar productie
+```text
+Prompt: Maak een korte samenvatting van het boek 
+'Het verdriet van België' door Louis-Paul Boon.
+
+ChatGPT 3.5: "Het verdriet van België" ("The Sorrow 
+of Belgium") door Louis-Paul Boon is een 
+semi-autobiografische roman...
+```
+
+- **Belangrijk**: Foundation Models weten niets, ze berekenen alleen waarschijnlijkheden
 
 </div>
 <div>
 
-## Governance & Compliance
+## Kennisbeperkingen
+- Kennis bevroren op trainingsmoment
+- Geen besef van actualiteit na trainingsdatum
 
-- **Dataveiligheid**: Bescherming van bedrijfsdata
-- **Explainability**: Zakelijke besluitvorming
-- **Consistentie**: Betrouwbaarheid van resultaten
-- **Auditeerbaarheid**: Traceren van AI beslissingen
-- **Regulatory Compliance**: Sector-specifieke regels
-- **Vendor Lock-in**: Afhankelijkheid van providers
+```text
+Prompt: Ik wil The Crooked House bezoeken, een 
+historische 18e-eeuwse pub in Staffordshire. 
+Wat moet ik weten?
+
+ChatGPT 3.5: Een bezoek aan The Crooked House 
+klinkt fantastisch! Hier is wat je moet weten: ...
+```
+
+- The Crooked House brandde af in 2023, maar ChatGPT 3.5 werd getraind tot januari 2022
 
 </div>
 </div>
 
 ---
 layout: default
-transition: slide-left
+transition: slide-up
 hideInToc: true
 ---
 
-# Verantwoorde AI-adoptie
+# Meer Beperkingen van AI
 
 <div class="grid grid-cols-2 gap-6">
 <div>
 
-## Best Practices
+## Inconsistente Wiskundige Vaardigheden
+- Moeite met eenvoudige berekeningen
+- Verwarrende tijdsperceptie
 
-- **Human-in-the-loop**: Menselijke supervisie
-- **Doelgerichte Toepassingen**: Begin klein en specifiek
-- **Ethische Kaders**: Ontwikkel duidelijke richtlijnen
-- **Transparantie**: Communiceer beperkingen
-- **Continuous Learning**: Blijf modellen verbeteren
-- **Diverse Teams**: Verschillende perspectieven
+```text
+Prompt: Geef een woord met precies 3 b's, 2 a's en een e.
+
+ChatGPT 3.5: Het woord "beanbag" voldoet aan je criteria: 
+het heeft 3 b's, 2 a's en een e.
+```
+
+```text
+Prompt: Wat gebeurde eerder: het zinken van The Herald 
+of Free Enterprise of het 'Heizeldrama'?
+
+ChatGPT 3.5: Het zinken van de Herald of Free Enterprise 
+vond plaats op 6 maart 1987, terwijl het Heizeldrama 
+plaatsvond op 29 mei 1985.
+```
 
 </div>
 <div>
 
-## SAP's Aanpak
+## Sterk in Standaardproblemen
+- Goed in het oplossen van bekende vraagstukken
+- Volgt aangeleerde methodieken
 
-- **Responsible AI**: Ethische principes centraal
-- **Business AI**: Focus op concrete waarde
-- **Hybrid AI**: Combinatie van verschillende technieken
-- **Enterprise AI**: Geïntegreerd in bestaande systemen
-- **Embedded AI**: AI verweven in bedrijfsprocessen
-- **Trusted AI**: Betrouwbaar en transparant
+```text
+Prompt: Twee auto's rijden noordwaarts. De eerste rijdt 
+40 km/u, de tweede vertrekt 3 uur later en rijdt 60 km/u. 
+Hoe lang na het vertrek van de tweede auto haalt deze 
+de eerste in?
+
+Bing Copilot: 
+Laat T de tijd voorstellen die de eerste auto rijdt.
+De tweede auto start 3 uur later, dus zijn tijd is (T - 3).
+Afstand eerste auto: 40T kilometer.
+Afstand tweede auto: 60(T - 3) kilometer.
+40T = 60(T - 3)
+40T = 60T - 180
+-20T = -180
+T = 9
+Antwoord: 6 uur na vertrek tweede auto.
+```
 
 </div>
 </div>
