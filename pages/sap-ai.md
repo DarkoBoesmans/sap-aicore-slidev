@@ -169,65 +169,64 @@ hideInToc: true
 </div>
 
 ---
-layout: default
+layout: image-right
+image: https://images.unsplash.com/photo-1554224155-6726b3ff858f
 transition: slide-left
 hideInToc: true
 ---
 
-<!-- TODO: Stijl aanpassen zodat het bij de rest hoort -->
+# Finance & Supply Chain
 
-# Domains voor Use Cases
+## Finance & Accounting
+- Automatische factuurverwerking
+- Fraude-detectie met ML
+- Cash flow-voorspellingen
+- Uitgavenanalyse
 
-<div class="grid grid-cols-3 gap-6">
-<div class="bg-gradient-to-br from-[#7B5DC7] to-[#9F89D7] p-6 rounded-lg text-white">
-  <h3 class="text-xl mb-2">Finance & Accounting</h3>
-  <ul class="space-y-2 opacity-90">
-    <li>Automatische factuurverwerking</li>
-    <li>Fraude-detectie met ML</li>
-    <li>Cash flow-voorspellingen</li>
-    <li>Uitgavenanalyse en -optimalisatie</li>
-  </ul>
-</div>
+## Supply Chain
+- Vraagvoorspelling
+- Inventarisoptimalisatie
+- Logistieke routeplanning
+- Leveranciersevaluatie
 
-<div class="bg-gradient-to-br from-[#5A32C8] to-[#7B5DC7] p-6 rounded-lg text-white">
-  <h3 class="text-xl mb-2">Supply Chain</h3>
-  <ul class="space-y-2 opacity-90">
-    <li>Vraagvoorspelling</li>
-    <li>Inventarisoptimalisatie</li>
-    <li>Logistieke routeplanning</li>
-    <li>Leveranciersevaluatie</li>
-  </ul>
-</div>
+---
+layout: image-left
+image: https://images.unsplash.com/photo-1542744173-8e7e53415bb0
+transition: slide-left
+hideInToc: true
+---
 
-<div class="bg-gradient-to-br from-[#9F89D7] to-[#C6B6FF] p-6 rounded-lg text-white">
-  <h3 class="text-xl mb-2">Human Resources</h3>
-  <ul class="space-y-2 opacity-90">
-    <li>Intelligente werving en selectie</li>
-    <li>Employee engagement analyse</li>
-    <li>Gepersonaliseerde training</li>
-    <li>Werkbelastingbeheer</li>
-  </ul>
-</div>
-</div>
+# Human Resources & Marketing
 
-<div class="mt-8 grid grid-cols-2 gap-6">
-<div class="bg-gradient-to-br from-[#4A2BA8] to-[#5A32C8] p-6 rounded-lg text-white">
-  <h3 class="text-xl mb-2">Sales & Marketing</h3>
-  <ul class="space-y-2 opacity-90">
-    <li>Klantgedraganalyse</li>
-    <li>Gepersonaliseerde marketing</li>
-    <li>Verkoopkansvoorspelling</li>
-    <li>Sentimentanalyse</li>
-  </ul>
-</div>
+## Human Resources
+- Intelligente werving
+- Engagement analyse
+- Gepersonaliseerde training
+- Werkbelastingbeheer
 
-<div class="bg-gradient-to-br from-[#C6B6FF] to-[#9F89D7] p-6 rounded-lg text-white">
-  <h3 class="text-xl mb-2">IT & Development</h3>
-  <ul class="space-y-2 opacity-90">
-    <li>Codeanalyse en -suggesties</li>
-    <li>Automatische testgeneratie</li>
-    <li>Incident response-automatisering</li>
-    <li>Infrastructuuroptimalisatie</li>
-  </ul>
-</div>
-</div>
+## Sales & Marketing
+- Klantgedraganalyse
+- Gepersonaliseerde marketing
+- Verkoopkansvoorspelling
+- Sentimentanalyse
+
+---
+layout: image-right
+image: https://images.unsplash.com/photo-1573164713988-8665fc963095
+transition: slide-left
+hideInToc: true
+---
+
+# IT & Customer Service
+
+## IT & Development
+- Codeanalyse en -suggesties
+- Automatische testgeneratie
+- Incident response
+- Infrastructuuroptimalisatie
+
+## Customer Service
+- Intelligente chatbots
+- Ticket-classificatie
+- Kennisbankoptimalisatie
+- Voorspellende ondersteuning
