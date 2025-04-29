@@ -1,0 +1,51 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+.pnpm-store/
+
+# Slidev build output
+dist/
+.slidev/
+
+# Editor directories and files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+logs
+*.log
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Cache
+.cache/
+.temp/
+
+# Local Vercel and Netlify folders
+.vercel
+.netlify
+
+# Lock files (als je deze niet wilt committen, verwijder anders deze regels)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Build directories
+dist-ssr/
+.output/
+
+# Systeem bestanden
+Thumbs.db
