@@ -7,6 +7,10 @@ transition: slide-left
 
 De evolutie van AI van theoretisch concept naar praktische toepassingen
 
+<!-- 
+    Lazhar
+-->
+
 ---
 layout: image-left
 image: https://images.unsplash.com/photo-1569360531163-a61fa3da86ee

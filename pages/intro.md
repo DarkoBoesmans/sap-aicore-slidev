@@ -21,6 +21,10 @@ transition: slide-left
 - Vermogen om elke intellectuele taak te begrijpen die een mens kan  
 - *"Sparks of AGI: Early experiments with GPT-4"*
 
+<!-- 
+  Darko
+-->
+
 ---
 layout: image-right
 image: https://www.elcorreo.com/xlsemanal/wp-content/uploads/sites/5/2023/04/alan-turing-inventor-informatica-espia-codigo-enigma-segunda-guerra-mundial.jpg

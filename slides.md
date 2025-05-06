@@ -89,10 +89,6 @@ src: ./pages/ai-agents.md
 ---
 
 ---
-src: ./pages/use-cases.md
----
-
----
 src: ./pages/ivago.md
 ---
 

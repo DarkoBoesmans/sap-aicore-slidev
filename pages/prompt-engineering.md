@@ -6,6 +6,10 @@ hideInToc: true
 
 ## Prompt Engineering
 
+<!-- 
+  Darko
+-->
+
 ---
 layout: image-right
 image: https://images.unsplash.com/photo-1581092160562-40aa08e78837
@@ -29,33 +33,6 @@ transition: slide-left
   </p>
 </div>
 
-</div>
-
----
-layout: default
-transition: slide-left
-hideInToc: true
----
-
-# Prompt Engineering Technieken
-
-<div class="grid grid-cols-2 gap-6">
-<div>
-
-## Basisconcepten
-- **Chain-of-Thought**: leid het model door complexe redeneringen
-- **Few-Shot Learning**: geef voorbeelden in de prompt
-- **System Prompts**: stel de rol en gedrag van de AI in
-
-</div>
-<div>
-
-## Geavanceerde technieken
-- **Temperature-instelling**: controle over creativiteit vs precisie
-- **Prompt Templates**: herbruikbare promptstructuren
-- **Context Window Management**: optimaal gebruik van tokenruimte
-
-</div>
 </div>
 
 ---

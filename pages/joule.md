@@ -1,6 +1,6 @@
 ---
 layout: iframe-left
-url: https://www.youtube.com/embed/aj8VIHdGR0A?autoplay=1&mute=1
+url: https://www.youtube.com/embed/aj8VIHdGR0A?mute=1
 transition: slide-left
 ---
 
@@ -30,3 +30,7 @@ SAP's AI-assistent die natuurlijke taal gebruikt om SAP-systemen toegankelijker 
 
 </div>
 </div>
+
+<!-- 
+    Darko
+-->
