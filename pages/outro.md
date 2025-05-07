@@ -18,9 +18,9 @@ class: "text-center"
   <div class="bg-gradient-to-br from-[#5A32C8]/10 to-[#9F89D7]/10 p-6 rounded-lg backdrop-blur-sm">
     <h3 class="text-xl font-bold text-[#5A32C8] mb-2">Chat Tool</h3>
     <ul class="text-left space-y-2">
-      <li>🔮 Multimodale interactie (spraak, beeld)</li>
+      <li>🔮Navigatie afgewerkt </li>
       <li>🔮 Persoonlijkere gebruikerservaringen</li>
-      <li>🔮 Integratie met waste app voor end-to-end service</li>
+      <li>🔮 Training toevoegen</li>
     </ul>
   </div>
   

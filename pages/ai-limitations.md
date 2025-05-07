@@ -65,25 +65,8 @@ transition: slide-left
 - **Explainable AI** voor transparantie
 - **Data governance** voor privacy
 
----
-layout: image-left
-image: https://images.unsplash.com/photo-1474631245212-32dc3c8310c6
-transition: slide-left
----
 
-# Toekomstperspectief
 
-## Belangrijkste trends
-- Balans innovatie en ethiek
-- Mensgerichte ontwikkeling
-- Stakeholder-samenwerking
-- Adaptieve normering
-
-## Concrete stappen
-- **Ethische audits** van systemen
-- **Inclusief design** proces
-- **Ontwikkelaar-training**
-- **Transparante communicatie**
 
 
 ---

@@ -16,21 +16,22 @@ SAP's AI-assistent die natuurlijke taal gebruikt om SAP-systemen toegankelijker 
 ## Kernfunctionaliteiten
 - **Conversatie-interface** voor SAP-toepassingen
 - **Contextbewuste** ondersteuning en analyses
-- **Multi-modale interactie**: tekst, spraak, afbeeldingen
-- **Workflow-automatisering** en procesversnelling
+-**Multi-modale interactie**: tekst, spraak, afbeeldingen
+
 
 </div>
 <div>
 
 
-## Integratie
-- S/4HANA, SAP SuccessFactors, SAP Customer Experience
-- SAP Business Technology Platform
-- Verbinding met externe AI-diensten via SAP AI Core
 
 </div>
 </div>
 
 <!-- 
     Darko
+    - **Workflow-automatisering** en procesversnelling
+ Integratie
+- S/4HANA, SAP SuccessFactors, SAP Customer Experience
+- SAP Business Technology Platform
+- Verbinding met externe AI-diensten via SAP AI Core
 -->
