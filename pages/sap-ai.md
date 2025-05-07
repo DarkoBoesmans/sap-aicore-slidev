@@ -86,12 +86,12 @@ hideInToc: true
 </div>
 <div>
 
-## SAP Generative Hub
+## SAP Generative AI Hub
 
-- **Low-code/No-code** ontwikkeling met AI-ondersteuning
-- **Code generatie** voor ABAP, CAP en JavaScript
-- **AI-assistentie** bij ontwikkeling
-- **Versnelling** van implementatieprocessen
+- **LLM integratie** met verschillende AI-modellen
+- **Token-gebaseerde** prijsstructuur (pay-per-use)
+- **Orchestration** van AI-workloads
+- **API-first** benadering voor flexibele implementatie
 
 </div>
 </div>
